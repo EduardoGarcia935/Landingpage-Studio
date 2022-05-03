@@ -1,0 +1,569 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #212529;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: 0;
+    padding: 3vh;
+    position: fixed;
+    width: 100vw;
+}
+
+.nome-studio{
+    font-family: 'Vujahday Script', cursive;
+    display: inline-block;
+    color: #FFC800;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+ul{
+    padding: 7px 0 0 0;
+}
+
+
+
+.nav-item{
+    display: inline;
+    margin: 0 30px 0 0;
+}
+
+.nav-item a{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    transition: 1.1s;
+}
+
+.nav-item a:hover{
+    color: #FFC800;
+}
+
+header{
+    background-image: url(../Projeto-Studio/img/header-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h2{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 4.2rem;
+    margin-bottom: 40px;
+}
+
+header a{
+    background-color: #FFC800;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 20px;
+    border-radius: 6px;
+    font-weight: 900;
+    display: inline;
+}
+
+header a:hover{
+    transform: translateY(-15px);
+}
+
+#servicos{
+    height: 100vh;
+}
+
+#servicos .container-tittle{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos .container-tittle .container-conteudo{ 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#servicos .container-tittle .container-conteudo h2{ 
+    font-size: 3rem;
+    color: #212529;
+    text-transform: uppercase;
+}
+
+#servicos .container-tittle .container-conteudo p{ 
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #6C757D;
+    margin-top: 20px;
+}
+
+#servicos .container-cards{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#servicos .container-cards .card{
+    width: 30%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card .card-img{
+    display: inline-block;
+}
+
+.card .card-tittle{
+    font-size: 2.5rem;
+    color: #212529;
+    margin:20px 0 20px 0;
+}
+
+.card .card-text{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #6C757D;
+    width: 80%;
+}
+
+#portfolio{
+    height: 150vh;
+    background-color: #F8F9FA;
+}
+
+#portfolio .container-tittle{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolio .container-tittle .container-conteudo{ 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#portfolio .container-tittle .container-conteudo h2{ 
+    font-size: 3rem;
+    color: #212529;
+    text-transform: uppercase;
+}
+
+#portfolio .container-tittle .container-conteudo p{ 
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #6C757D;
+    margin-top: 20px;
+}
+
+
+#portfolio .container-imgs{
+    height: 70%;
+}
+
+#portfolio .container-imgs .card{
+    display: inline-block;
+    margin: 20px;
+}
+
+#portfolio .card .part-img img{
+    width: 336px;
+    height: 252px;
+}
+
+#portfolio .card .part-text{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#portfolio .card .part-text h2{ 
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #212529;
+    text-transform: uppercase;
+}
+
+#portfolio .card .part-text p{ 
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #6C757D;
+}
+
+#portfolio .container-imgs .parte1{
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio .container-imgs .parte2{
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio img:hover{
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+#sobre{
+    height: 265vh;
+}
+
+#sobre .container-tittle{
+    height:12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre .container-tittle .container-conteudo{ 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#sobre .container-tittle .container-conteudo h2{ 
+    font-size: 3rem;
+    color: #212529;
+    text-transform: uppercase;
+}
+
+#sobre .container-tittle .container-conteudo p{ 
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #6C757D;
+    margin-top: 20px;
+}
+
+#sobre .main-container .conteudo-total{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #6C757D;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre .main-container .conteudo-total .conteudo-right{
+    display: inline-block;
+    width: 400px;
+    text-align: right;
+    margin: 0 40px 90px 0;
+}
+
+
+#sobre .main-container .conteudo-total .conteudo-right  p{
+    margin-top: 20px;
+}
+
+
+#sobre .main-container .conteudo-total .conteudo-right span{
+    display: block;
+    text-align: right;
+    font-size: 1.8rem;
+    color: #212529;
+    font-weight: bold;
+}
+
+#sobre .main-container .conteudo-total .conteudo-left{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    margin: 0 0 90px 40px;
+}
+
+
+#sobre .main-container .conteudo-total .conteudo-left  p{
+    margin-top: 20px;
+}
+
+
+#sobre .main-container .conteudo-total .conteudo-left span{
+    display: block;
+    text-align: left;
+    font-size: 1.8rem;
+    color: #212529;
+    font-weight: bold;
+}
+
+#sobre .main-container .conteudo-total .container-img img{
+    border-radius: 100px;
+    border: solid 4px #6C757D
+}
+
+#sobre .main-container .conteudo-5{
+    display: flex;
+    justify-content: center;
+}
+
+#sobre .main-container .conteudo-5 .circle{
+    background-color: #FFC800;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #6C757D 4px solid;
+}
+
+
+#sobre .main-container .conteudo-5 .circle p{
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: bold;
+    width: 120px;
+}
+
+#time{
+    height: 130vh;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+
+#time .container-tittle{
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#time .container-tittle .container-conteudo{ 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#time .container-tittle .container-conteudo h2{ 
+    font-size: 3rem;
+    color: #212529;
+    text-transform: uppercase;
+}
+
+#time .container-tittle .container-conteudo p{ 
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #6C757D;
+    margin-top: 20px;
+}
+
+#time .main-container{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#time .main-container .pessoa{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 30px 0 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#time .main-container .pessoa .container-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    border: #6C757D 4px solid;
+}
+
+#um{
+    background-image: url(../Projeto-Studio/img/team/1.jpg);
+    background-size: cover;
+}
+
+#dois{
+    background-image: url(../Projeto-Studio/img/team/2.jpg);
+    background-size: cover;
+}
+
+#tres{
+    background-image: url(../Projeto-Studio/img/team/3.jpg);
+    background-size: cover;
+}
+
+#time .main-container .pessoa .container-txt span{
+    font-size: 2rem;
+    color: #212529;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+
+#time .main-container .pessoa .container-txt p{
+    color: #6C757D;
+    margin: 20px 0 20px 0;
+}
+
+#time .footer-container{
+    background-color: #fff;
+    text-align: center;
+    margin-top: 83px;
+    height: 15%;
+}
+
+#time .little-txt{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #6C757D;
+    text-align: center;
+    display: inline-block;
+    width: 70%;
+}
+
+#time .footer-container .brandings{
+    width: 100%;
+    height: 100%;
+}
+
+#time .footer-container .brandings img{
+   width: 200px;
+   height: 80px;
+   margin: 30px;
+}
+
+#contato{
+    height: 100vh;
+    background-color: #212529;
+    background-image: url(../Projeto-Studio/img/map-image.png);
+    background-size: cover;
+}
+
+#contato .container-tittle{
+    height:20%;
+    display: flex;
+    padding: 20px 0 0 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#contato .container-tittle .container-conteudo{ 
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contato .container-tittle .container-conteudo h2{ 
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#contato .container-tittle .container-conteudo p{ 
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #FFC800;
+    margin-top: 20px;
+}
+
+#contato .campos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.text-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-fields input{
+    font-weight: 100;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    font-size: 1.2rem;
+    margin: 15px 0 15px 0;
+    border-radius: 5px;
+    border: none;
+    width: 400px;
+    position: relative;
+    left: 80px;
+}
+
+.text-fields input:focus{
+    border: none;
+    box-shadow: none;
+}
+
+
+textarea{
+    font-weight: 100;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    font-size: 1.2rem;
+    position: relative;
+    right: 80px;
+    border-radius: 5px;
+}
+
+#contato .campo-btn{
+    text-align: center;
+}
+
+#contato .campo-btn input{
+    font-weight: bold;
+    color: #fff;
+    background-color: #FFC800;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: white;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+}
